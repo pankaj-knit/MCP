@@ -1,0 +1,26 @@
+{
+  "name": "mcp-collection",
+  "version": "0.1.0",
+  "description": "Collection of MCP (Model-Communication-Protocol) services",
+  "main": "index.js",
+  "bin": {
+    "weather-mcp": "./weather-mcp/bin/cli.js",
+    "mcp": "./index.js"
+  },
+  "scripts": {
+    "weather": "cd weather-mcp && python weather.py"
+  },
+  "workspaces": [
+    "weather-mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
