@@ -1,0 +1,23 @@
+{
+  "name": "weather-mcp",
+  "version": "0.1.0",
+  "description": "Weather MCP Service using National Weather Service API",
+  "main": "weather.py",
+  "bin": {
+    "weather-mcp": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "python weather.py"
+  },
+  "keywords": [
+    "weather",
+    "mcp",
+    "claude",
+    "nws"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
